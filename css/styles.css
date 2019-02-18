@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+
+}
+
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* heading */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  /* font-weight: 900; */
+  font-size: 3rem;
+   line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+
+  padding: 7% 15%;
+}
+
+/* sections */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title .container-fluid { /* it will target only element in container-fluid inside #title class*/
+
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+
+/* phone image */
+ #phone {
+  width: 60%;
+  transform: rotate(25deg);
+  /* margin-top: 20px; */
+  position:absolute;
+  right: 30%;
+
+}
+
+#features {
+background-color: #fff;
+position:relative;
+z-index: 1;
+
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.features-box {
+ padding: 5%;   /*make text box smaller */
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-log {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price_text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+ @media (max-width: 1028px) {   /* 1028px and below */
+   #title {
+     text-align: center;
+
+   }
+
+   #phone {
+     position: static;
+     transform: rotate(0); /* rotate phone up */
+   }
+
+}
+
+
+
+/* nav bar */
+.navbar {
+   padding: 0 0 4.5rem; /*align text */
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+
+.caption {
+  color: gray;
+
+}
+
+/* #cta {
+  background-color: # ff4c68;
+  color: #  fff;
+  padding: 7% 15%;  7% top and bottom 15% left and rght
+  : 7% 15% 10% 20%;
+} */
+
+
+
+.cta-text {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+
+.social-media {
+margin: 20px 10px;  /* 20px top and bottom and 10px left and right */
+  /* margin: 0px 20px 20px 0px; */
+
+  color: #000;
+
+}
