@@ -129,12 +129,6 @@ z-index: 1;
 }
 
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .pricing-box {
-    width: 100%;
-  }
-}
 
  @media (max-width: 1028px) {   /* 1028px and below */
    #title {
